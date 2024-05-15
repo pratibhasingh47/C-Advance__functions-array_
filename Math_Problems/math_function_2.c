@@ -1,3 +1,6 @@
+//Write a function to calculate HCF of two numbers.
+
+
 #include <stdio.h>
 int main()
 {

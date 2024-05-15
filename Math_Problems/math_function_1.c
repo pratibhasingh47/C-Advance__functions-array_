@@ -1,3 +1,5 @@
+//Write a function to calculate LCM of two numbers.
+
 #include <stdio.h>
 int main()
 {
