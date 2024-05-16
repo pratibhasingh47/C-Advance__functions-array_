@@ -1,4 +1,4 @@
-//Write a function to check whether a given number is Prime or not.
+// Write a function to check whether a given number is Prime or not.
 
 #include <stdio.h>
 int prime(int a);

@@ -1,4 +1,5 @@
-//Write a function to find the next prime number of a given number
+// Write a function to find the next prime number of a given number
+
 #include <stdio.h>
 int prime(int a);
 int main()
