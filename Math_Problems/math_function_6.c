@@ -1,4 +1,4 @@
-//Write a function to print all Prime numbers between two given numbers
+// Write a function to print all Prime numbers between two given numbers
 
 #include <stdio.h>
 int prime(int a);
