@@ -1,3 +1,6 @@
+//Write a function to print first N prime numbers.
+
+
 #include <stdio.h>
 int prime(int a);
 int main()
