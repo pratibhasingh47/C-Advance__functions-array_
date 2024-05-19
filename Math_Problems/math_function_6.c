@@ -1,40 +1,41 @@
-#include<stdio.h>
+#include <stdio.h>
 int prime(int a);
 int main()
 {
-    int n,v;
-   printf("Enter the values :");
-   scanf("%d\n%d",&n,&v);
+    int n, v;
+    printf("Enter the values :");
+    scanf("%d\n%d", &n, &v);
     int i;
-    for ( i = n; i <= v && i>= n; i++)
+    for (i = n; i <= v && i >= n; i++)
     {
         int z;
-        z=prime(i);
+        z = prime(i);
     }
-    
 }
 int prime(int a)
 {
-    int i=2;int k;
-    if(a>0)
+    int i = 2;
+    int k;
+    if (a > 0)
     {
-        for (i = 2;i>0; i++)
+        for (i = 2; i > 0; i++)
         {
-            if (a%i==0)
+            if (a % i == 0)
             {
-                k=a/i;
-                if (k!=1)
+                k = a / i;
+                if (k != 1)
                 {
-                  //  printf("NOT PRIME ");
-                    break;return 0;
+                    //  printf("NOT PRIME ");
+                    break;
+                    return 0;
                 }
-                else if (a==i)
+                else if (a == i)
                 {
-                    printf("%d\n",a);
+                    printf("%d\n", a);
                     break;
                     return 1;
-                }       
+                }
             }
-        }    
+        }
     }
 }
