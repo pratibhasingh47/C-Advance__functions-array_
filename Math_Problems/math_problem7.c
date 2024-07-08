@@ -1,3 +1,5 @@
+// Write a function to print first N terms of Fibonacci series.
+
 #include <stdio.h>
 int main()
 {
