@@ -1,16 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 int square(int a);
 int main()
 {
-    int n,m;
+    int n, m;
     printf("Enter the value:");
-    scanf("%d",&n);
-    m=square(n);
-    printf("%d",m);
+    scanf("%d", &n);
+    m = square(n);
+    printf("%d", m);
 }
 int square(int a)
 {
     int k;
-    k=a*a;
+    k = a * a;
     return k;
 }
