@@ -1,3 +1,5 @@
+// Write a program to calculate sum of cubes of first N natural numbers
+
 #include <stdio.h>
 int main()
 {
