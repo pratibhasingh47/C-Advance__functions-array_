@@ -26,4 +26,3 @@ int frequency(int *arr)
         printf("Frequency of %d is %d\n",arr[j],f);
     }
 }
-
